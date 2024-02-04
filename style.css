@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 100vw;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: rgba(245, 67, 3, 0.692);
+  max-width: 980px;
+  padding: 20px;
+}
+.container h1 {
+  font-size: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+  padding: 20px 0;
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  gap: 20px;
+}
+
+.container article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+  height: 400px;
+  padding: 20px;
+  gap: 10px;
+  height: fit-content;
+  background-color: rgba(156, 16, 16, 0.432);
+}
+
+.container article img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.container .info {
+  display: flex;
+  flex-direction: column;
+}
+.container article h3 {
+  font-size: 26px;
+  color: #ffffff;
+}
+
+.container article span {
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+}
+.container .obs {
+  font-size: 14px;
+  color: yellow;
+  font-weight: 500;
+}
+
+.container article button {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: rgb(22, 138, 22);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  justify-content: space-between;
+}
+
+.container article button a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 5px 8px;
+}
+
+.container article button i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.contribua {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  padding: 20px;
+  margin-top: 20px;
+  gap: 20px;
+}
+.instagram {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 30px;
+  background-color: rgb(22, 138, 22);
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  justify-content: space-between;
+}
+
+.instagram a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.instagram > i {
+  font-size: 18px;
+  color: #ffffff;
+}
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+}
